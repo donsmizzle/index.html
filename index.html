@@ -1,22 +1,241 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<title>A1 Roofing NC | Sanford, NC</title>
-<style>
-*{box-sizing:border-box}html{scroll-behavior:smooth}
-body{margin:0;font-family:Arial,sans-serif;color:#222;line-height:1.6}
-a{text-decoration:none}.wrap{width:90%;max-width:1100px;margin:auto}
-header{background:#050505;color:#fff;padding:15px 0;position:sticky;top:0;z-index:10}
-nav{display:flex;align-items:center;justify-content:space-between;gap:15px}
-.logo{font-size:22px;font-weight:900}.logo span{color:#df2630}
-nav a{color:#fff}.call,.btn{background:#df2630;color:#fff;padding:12px 18px;border-radius:4px;font-weight:bold;display:inline-block}
-.hero{background:linear-gradient(120deg,rgba(0,0,0,.92),rgba(0,0,0,.58)),linear-gradient(135deg,#555,#111);color:#fff;padding:100px 0}
-.hero small,.redtext{color:#ff3944;font-weight:bold;text-transform:uppercase}
-h1{font-size:55px;line-height:1;margin:12px 0}h1 span{color:#df2630}
-.hero p{max-width:620px;font-size:18px;color:#ddd}
-.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:25px}
-.outline{border:2px solid #fff;color:#fff;padding:10px 18px;border-radius:4px;font-weight:bold}
-.trust{background:#080808;color:#fff}.trustgrid{display:grid;grid-template-columns:repeat(4,1fr)}
-.trust div{padding
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="A1 Roofing NC provides dependable roofing services in Sanford, North Carolina and surrounding areas.">
+  <title>A1 Roofing NC | Sanford, NC</title>
+  <style>
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      color: #222;
+      line-height: 1.6;
+      background: #fff;
+    }
+    a { text-decoration: none; }
+    .wrap { width: 90%; max-width: 1100px; margin: auto; }
+
+    header {
+      background: #050505;
+      color: #fff;
+      padding: 15px 0;
+      position: sticky;
+      top: 0;
+      z-index: 10;
+    }
+    nav {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 15px;
+      flex-wrap: wrap;
+    }
+    .logo { font-size: 22px; font-weight: 900; }
+    .logo span { color: #df2630; }
+    .nav-links { display: flex; gap: 16px; flex-wrap: wrap; }
+    .nav-links a { color: #fff; font-weight: bold; }
+    .call-btn {
+      background: #df2630;
+      color: #fff;
+      padding: 10px 16px;
+      border-radius: 5px;
+      font-weight: bold;
+    }
+
+    .hero {
+      background:
+        linear-gradient(rgba(0,0,0,.65), rgba(0,0,0,.65)),
+        linear-gradient(135deg, #555, #111);
+      color: #fff;
+      padding: 90px 0;
+      text-align: center;
+    }
+    .hero h1 {
+      font-size: clamp(36px, 7vw, 64px);
+      line-height: 1.1;
+      margin: 0 0 15px;
+    }
+    .hero h1 span { color: #df2630; }
+    .hero p {
+      max-width: 700px;
+      margin: 0 auto 25px;
+      font-size: 19px;
+    }
+    .hero-actions {
+      display: flex;
+      justify-content: center;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+    .btn {
+      display: inline-block;
+      padding: 12px 20px;
+      border-radius: 5px;
+      font-weight: bold;
+    }
+    .btn-primary { background: #df2630; color: #fff; }
+    .btn-outline { border: 2px solid #fff; color: #fff; }
+
+    section { padding: 60px 0; }
+    section h2 {
+      text-align: center;
+      font-size: 34px;
+      margin: 0 0 12px;
+    }
+    .section-intro {
+      text-align: center;
+      max-width: 720px;
+      margin: 0 auto 35px;
+      color: #555;
+    }
+
+    .services {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 18px;
+    }
+    .card {
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      padding: 24px;
+      background: #fff;
+      box-shadow: 0 4px 14px rgba(0,0,0,.06);
+    }
+    .card h3 { margin-top: 0; color: #df2630; }
+
+    .why { background: #f4f4f4; }
+    .trust {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 15px;
+      text-align: center;
+    }
+    .trust div {
+      background: #080808;
+      color: #fff;
+      padding: 22px 12px;
+      border-radius: 7px;
+      font-weight: bold;
+    }
+
+    .contact-box {
+      background: #080808;
+      color: #fff;
+      padding: 35px;
+      border-radius: 10px;
+      text-align: center;
+    }
+    .contact-box h2 { color: #fff; }
+    .contact-box a { color: #fff; }
+    .contact-details {
+      display: flex;
+      justify-content: center;
+      gap: 24px;
+      flex-wrap: wrap;
+      margin-top: 20px;
+      font-size: 18px;
+    }
+
+    footer {
+      background: #df2630;
+      color: #fff;
+      text-align: center;
+      padding: 18px;
+    }
+
+    @media (max-width: 800px) {
+      .services { grid-template-columns: 1fr; }
+      .trust { grid-template-columns: repeat(2, 1fr); }
+      nav { justify-content: center; }
+      .nav-links { justify-content: center; }
+    }
+
+    @media (max-width: 480px) {
+      .trust { grid-template-columns: 1fr; }
+      .hero { padding: 70px 0; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="wrap">
+      <nav>
+        <div class="logo">A1 <span>ROOFING NC</span></div>
+        <div class="nav-links">
+          <a href="#services">Services</a>
+          <a href="#about">About</a>
+          <a href="#contact">Contact</a>
+        </div>
+        <a class="call-btn" href="tel:9199025973">Call 919-902-5973</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="wrap">
+        <h1>Reliable Roofing. <span>Built to Last.</span></h1>
+        <p>Quality roofing work, honest pricing, and dependable service throughout Sanford, North Carolina and surrounding areas.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="tel:9199025973">Call for a Free Estimate</a>
+          <a class="btn btn-outline" href="#services">View Our Services</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="services">
+      <div class="wrap">
+        <h2>Our Roofing Services</h2>
+        <p class="section-intro">Professional roofing help for homeowners and businesses in Sanford and nearby communities.</p>
+        <div class="services">
+          <div class="card">
+            <h3>Roof Repairs</h3>
+            <p>Leak repairs, storm damage, missing shingles, flashing problems, and other roofing issues.</p>
+          </div>
+          <div class="card">
+            <h3>Roof Replacement</h3>
+            <p>Complete roof replacement with careful installation and dependable materials.</p>
+          </div>
+          <div class="card">
+            <h3>Roof Inspections</h3>
+            <p>Thorough roof checks to help identify damage and needed repairs before problems get worse.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="why" id="about">
+      <div class="wrap">
+        <h2>Why Choose A1 Roofing NC?</h2>
+        <p class="section-intro">We have served the area for eight years with a focus on quality workmanship, fair pricing, and reliable service.</p>
+        <div class="trust">
+          <div>8 Years in Business</div>
+          <div>Honest Pricing</div>
+          <div>Reliable Service</div>
+          <div>Local Sanford Company</div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="wrap">
+        <div class="contact-box">
+          <h2>Request a Free Estimate</h2>
+          <p>Contact A1 Roofing NC today to discuss your roofing project.</p>
+          <div class="contact-details">
+            <a href="tel:9199025973">Phone: 919-902-5973</a>
+            <a href="mailto:A1preferred@yahoo.com">Email: A1preferred@yahoo.com</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    © 2026 A1 Roofing NC. All rights reserved.
+  </footer>
+</body>
+</html>
