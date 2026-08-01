@@ -597,15 +597,14 @@
           </p>
         </div>
 
-        <div class="gallery">
-  <img src="https://images.unsplash.com/photo-1632759145351-1d592919f522?auto=format&fit=crop&w=900&q=80" alt="Residential roof installation">
-  <img src="https://images.unsplash.com/photo-1622993361004-29c932a8c803?auto=format&fit=crop&w=900&q=80" alt="Roofer working on a house">
-  <img src="https://images.unsplash.com/photo-1503594384566-461fe158e797?auto=format&fit=crop&w=900&q=80" alt="Residential shingle roof">
-  <img src="https://images.unsplash.com/photo-1591588582259-e675bd2e6088?auto=format&fit=crop&w=900&q=80" alt="Completed residential roof">
-  <img src="https://images.unsplash.com/photo-1566908829550-e6551b00979b?auto=format&fit=crop&w=900&q=80" alt="Residential roofing project">
-  <img src="https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&w=900&q=80" alt="New roof on a home">
+      <div class="gallery">
+  <img src="https://images.unsplash.com/photo-1763665814605-a6489a3bf2a0?auto=format&fit=crop&w=900&q=80" alt="Residential roof installation">
+  <img src="https://images.unsplash.com/photo-1632759145351-1d592919f522?auto=format&fit=crop&w=900&q=80" alt="Residential roof replacement">
+  <img src="https://images.unsplash.com/photo-1726589004565-bedfba94d3a2?auto=format&fit=crop&w=900&q=80" alt="Residential roofing work">
+  <img src="https://images.unsplash.com/photo-1755114203680-d39d95efa82c?auto=format&fit=crop&w=900&q=80" alt="Completed residential shingle roof">
+  <img src="https://images.unsplash.com/photo-1681049400158-0ff6249ac315?auto=format&fit=crop&w=900&q=80" alt="Roofers working on a home">
+  <img src="https://images.unsplash.com/photo-1633759593085-1eaeb724fc88?auto=format&fit=crop&w=900&q=80" alt="Residential roof repair">
 </div>
-      </div>
     </section>
 
     <section class="areas">
